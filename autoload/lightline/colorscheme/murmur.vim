@@ -37,7 +37,7 @@ let s:p.tabline.left    = [ [ s:yellowish, s:grey2 ] ]
 let s:p.tabline.tabsel  = [ [ s:white, s:blue ] ]
 let s:p.tabline.middle  = [ [ s:blue, s:grey3 ] ]
 let s:p.tabline.right   = [ [ s:white, s:blue] ]
-let s:p.normal.error    = [ [ s:black, s:reg ] ]
+let s:p.normal.error    = [ [ s:black, s:red ] ]
 let s:p.normal.warning  = [ [ s:black, s:orange ] ]
 
 let g:lightline#colorscheme#murmur#palette = lightline#colorscheme#flatten(s:p)
