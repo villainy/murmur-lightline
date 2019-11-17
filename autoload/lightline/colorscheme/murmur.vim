@@ -1,9 +1,9 @@
 " =============================================================================
 " Filename: autoload/lightline/colorscheme/murmur.vim
-" Version: 0.1
+" Version: 0.2
 " Author: villainy
 " License: MIT License
-" Last Change: 2016/08/12
+" Last Change: 2019/11/17
 " =============================================================================
 
 " Color palette
@@ -21,18 +21,18 @@ let s:yellowish = [ '#afaf87', 144 ] " Foreground for branch and file format blo
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
-let s:p.normal.left     = [ [ s:white, s:blue ], [ s:yellowish, s:grey2 ], [ s:blue, s:grey3 ] ]
-let s:p.normal.right    = [ [ s:white, s:blue ], [ s:white, s:blue ], [ s:yellowish, s:grey2 ] ]
-let s:p.normal.middle   = [ [ s:blue, s:grey3 ] ]
+let s:p.normal.left     = [ [ s:white, s:blue ], [ s:yellowish, s:grey1 ], [ s:yellowish, s:grey2 ] ]
+let s:p.normal.right    = [ [ s:white, s:blue ], [ s:yellowish, s:grey1 ], [ s:yellowish, s:grey2 ] ]
+let s:p.normal.middle   = [ [ s:white, s:grey3 ] ]
 let s:p.inactive.right  = [ [ s:grey1, s:grey3 ], [ s:grey1, s:grey3 ] ]
 let s:p.inactive.left   = [ [ s:grey1, s:grey3 ], [ s:grey1, s:grey3 ] ]
 let s:p.inactive.middle = [ [ s:grey1, s:grey3 ] ]
-let s:p.insert.left     = [ [ s:white, s:green ], [ s:yellowish, s:grey2 ], [ s:blue, s:grey3 ] ]
-let s:p.insert.right    = [ [ s:white, s:green ], [ s:white, s:green ], [ s:yellowish, s:grey2 ] ]
-let s:p.replace.left    = [ [ s:white, s:red ], [ s:yellowish, s:grey2 ], [ s:blue, s:grey3 ] ]
-let s:p.replace.right   = [ [ s:white, s:red ], [ s:white, s:red ], [ s:yellowish, s:grey2 ] ]
-let s:p.visual.left     = [ [ s:white, s:orange ], [ s:yellowish, s:grey2 ], [ s:blue, s:grey3 ] ]
-let s:p.visual.right    = [ [ s:white, s:orange ], [ s:white, s:orange ], [ s:yellowish, s:grey2 ] ]
+let s:p.insert.left     = [ [ s:white, s:green ], [ s:yellowish, s:grey1 ], [ s:yellowish, s:grey2 ] ]
+let s:p.insert.right    = [ [ s:white, s:green ], [ s:yellowish, s:grey1 ], [ s:yellowish, s:grey2 ] ]
+let s:p.replace.left     = [ [ s:white, s:red ], [ s:yellowish, s:grey1 ], [ s:yellowish, s:grey2 ] ]
+let s:p.replace.right    = [ [ s:white, s:red ], [ s:yellowish, s:grey1 ], [ s:yellowish, s:grey2 ] ]
+let s:p.visual.left     = [ [ s:white, s:orange ], [ s:yellowish, s:grey1 ], [ s:yellowish, s:grey2 ] ]
+let s:p.visual.right    = [ [ s:white, s:orange ], [ s:yellowish, s:grey1 ], [ s:yellowish, s:grey2 ] ]
 let s:p.tabline.left    = [ [ s:yellowish, s:grey2 ] ]
 let s:p.tabline.tabsel  = [ [ s:white, s:blue ] ]
 let s:p.tabline.middle  = [ [ s:blue, s:grey3 ] ]
