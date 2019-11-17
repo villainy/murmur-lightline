@@ -34,9 +34,9 @@ let s:p.replace.right    = [ [ s:white, s:red ], [ s:yellowish, s:grey1 ], [ s:y
 let s:p.visual.left     = [ [ s:white, s:orange ], [ s:yellowish, s:grey1 ], [ s:yellowish, s:grey2 ] ]
 let s:p.visual.right    = [ [ s:white, s:orange ], [ s:yellowish, s:grey1 ], [ s:yellowish, s:grey2 ] ]
 let s:p.tabline.left    = [ [ s:yellowish, s:grey2 ] ]
-let s:p.tabline.tabsel  = [ [ s:white, s:blue ] ]
+let s:p.tabline.tabsel  = [ [ s:white, s:grey1 ] ]
 let s:p.tabline.middle  = [ [ s:blue, s:grey3 ] ]
-let s:p.tabline.right   = [ [ s:white, s:blue] ]
+let s:p.tabline.right   = [ [ s:white, s:grey1 ] ]
 let s:p.normal.error    = [ [ s:black, s:red ] ]
 let s:p.normal.warning  = [ [ s:black, s:orange ] ]
 
